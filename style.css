@@ -15,7 +15,9 @@
 /* Shared styles*/
 .display-flex{
     display: flex;
-    
+  
+  /* navbar styles */
+
 }
 .navbar{
     width: 100%;
@@ -25,6 +27,25 @@
     align-items: center;
     padding: 0 12.5rem;
     background-color: rgba(65, 37, 103, 1);
+}
+.logo{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 800;
+    text-decoration: none;
+    width: 14.5rem;
+    height: 2rem;
+}
+.logo h1{
+    margin: 0;  
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.linear{
+    background: linear-gradient(90deg,rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .nav-links{
    
@@ -37,4 +58,25 @@
     font-size: 1rem;
     font-weight: 500;
     
+}
+.nav-links li a:hover{
+    color: #F7E93F;
+    transition: color 0.3s ease;
+}
+
+.btn , .btn-primary{
+    padding: 0.75rem 1rem;
+    width: 8.4rem;
+    height: 2.75rem;
+
+    background: linear-gradient(90deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+    border: none;
+    border-radius: 1.5rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
 }
